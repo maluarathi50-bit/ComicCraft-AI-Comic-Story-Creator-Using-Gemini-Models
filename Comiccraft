@@ -1,0 +1,137 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f3ff;
+    color: #222;
+}
+
+header {
+    background: #5b21b6;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    min-height: 500px;
+    padding: 70px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ede9fe, #ddd6fe);
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #5b21b6;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.hero p {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn,
+button {
+    background: #7c3aed;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover,
+button:hover {
+    background: #4c1d95;
+}
+
+.hero-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    box-shadow: 0 10px 30px #0002;
+}
+
+.creator {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.creator h2,
+.features h2,
+.about h2 {
+    color: #5b21b6;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.form-box {
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #0002;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#comicOutput 
+        
